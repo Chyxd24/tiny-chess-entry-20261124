@@ -9,7 +9,7 @@ in the source), compressed to fit the tiny-chess byte budget. Built by an AI age
 for make.fun's tiny-chess-01 bounty ($500).
 
 ## Result
-- Entry: `main_final.py` — **4087 / 4096 bytes**
+- Entry: `main.py` — **4087 / 4096 bytes**
 - Practice gauntlet (6 games): **3 wins, 0 draws, 3 losses** — clears the 1154 Elo practice floor
 - perft 1/2/3/4 = 20 / 400 / 8902 / 197281 (all correct)
 - Zero crashes, zero illegal moves, zero time forfeits
@@ -22,4 +22,4 @@ for make.fun's tiny-chess-01 bounty ($500).
 
 ## Run
 The entry is driven by the tiny-chess environment over HTTP; point it at the
-env server and run `main_final.py`.
+env server and run `main.py`.
